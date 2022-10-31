@@ -41,7 +41,6 @@ body {
     z-index: -1;
 }
 
-
 /* Nav */
 
 .nav {
@@ -109,7 +108,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     white-space: nowrap;
     border-right: 3px solid;
-    width: 13ch;
+    width: 20ch;
 
     animation: typing 2s steps(25), blink .5s infinite step-end alternate;
     overflow: hidden;
@@ -141,7 +140,14 @@ body {
     text-decoration: none;
     padding: 13px 30px;
     border-radius: 32px;
+    cursor: default;
     
+}
+
+.cta:hover {
+
+    background-color: #1aab9f;
+
 }
 
 /* About */
@@ -389,11 +395,11 @@ body {
     .footer__submit{
         margin-right: auto;
         margin-left: 0;
-        
-
-        /* 
-        margin:0;
-        width: 100%;
-        */
     }
+}
+
+.img__technology {
+    width: 20%;
+    max-width: 100px;
+    height: auto;
 }
