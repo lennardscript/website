@@ -1,7 +1,7 @@
 # Página web 💻
 
 Mi página web puede ser visitado por cualquier persona que quiere saber un poco de mi, mis proyectos, mis objetivos, de lo que me dedico, etc.
-Por el momento mi página web esta en modo de desarrollo, tengan paciencia :)
+Por el momento mi página web está en modo de desarrollo, tengan paciencia :)
 
 # Screenshot 📸
 
