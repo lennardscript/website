@@ -26,6 +26,7 @@ body {
     display: grid;
     grid-template-rows: 100px 1fr;
     color: #fff;
+    
 }
 
 .header::before {
@@ -39,6 +40,7 @@ body {
     background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
     z-index: -1;
+    
 }
 
 /* Nav */
@@ -48,6 +50,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+    
 }
 
 .nav__title {
@@ -201,12 +204,8 @@ body {
     font-weight: 300;
     font-size: 2rem;
     margin-bottom: 30px;
-}
-
-.footer__title, .footer__newsletter{
     color: #fff;
 }
-
 
 .footer__container{
     display: flex;
@@ -216,50 +215,17 @@ body {
     padding-bottom: 60px;
 }
 
-.nav--footer{
-    padding-bottom: 20px;
-    display: grid;
-    gap: 1em;
+.nav__footer {
+    gap: 3em;
     grid-auto-flow: row;
     height: 100%;
 }
 
-.nav__link--footer{
+.nav__link__footer{
     display: flex;
     margin: 0;
     margin-right: 20px;
     flex-wrap: wrap;
-}
-
-.footer__inputs{
-    margin-top: 10px;
-    display: flex;
-    overflow: hidden;
-}
-
-.footer__input{
-    background-color: #fff;
-    height: 50px;
-    display: block;
-    padding-left: 10px;
-    border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    margin-right: 16px;
-}
-
-.footer__submit{
-    margin-left: auto;
-    display: inline-block;
-    height: 50px;
-    padding: 0 20px ;
-    background-color: #2091F9;
-    border: none;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
 }
 
 .footer__copy{
